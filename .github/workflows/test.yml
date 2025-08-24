@@ -6,9 +6,9 @@ on:
     - main
 
 jobs:
-  job: myfirst github action pipeline
-  runs_on:
-    Ubuntu-latest
+  job: 'myfirst github action pipeline'
+  runs-on:
+    ubuntu-latest
   steps:
   - name: Rock stars
-  run: echo "Rajnish rock stars"
+    run: echo Rajnish rock stars
