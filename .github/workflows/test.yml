@@ -8,7 +8,7 @@ on:
 jobs:
   myfirst-job: 
    name: My First GitHub Action Pipeline
-   runs-on: rajnish
+   runs-on: ubuntu-latest
    steps:
     - name: Rock stars
       run: echo Rajnish rock stars
