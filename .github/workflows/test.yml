@@ -1,0 +1,14 @@
+name: Rajnish
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  job: myfirst github action pipeline
+  runs_on:
+    Ubuntu-latest
+  steps:
+  - name: Rock stars
+  run: echo "Rajnish rock stars"
